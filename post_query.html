@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post a Query | Student Guidance Platform</title>
+    <link rel="stylesheet" href="css/queries.css">
+</head>
+<body>
+    <header>
+        <h1>Post a New Query</h1>
+    </header>
+
+    <main>
+        <form id="postQueryForm" action="#" method="POST">
+            <label for="category">Category:</label>
+            <select id="category" name="category">
+                <option value="academics">Academics</option>
+                <option value="career">Career Advice</option>
+                <option value="clubs">College Clubs</option>
+                <option value="personal">Personal Advice</option>
+            </select>
+
+            <label for="queryText">Your Query:</label>
+            <textarea id="queryText" name="queryText" rows="5" required></textarea>
+
+            <label for="tag">Tag Department or Expertise:</label>
+            <input type="text" id="tag" name="tag" placeholder="e.g., Computer Science, Placement, etc.">
+
+            <button type="submit">Post Query</button>
+        </form>
+    </main>
+</body>
+</html>
